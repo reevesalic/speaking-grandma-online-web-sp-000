@@ -7,7 +7,7 @@ def speak_to_grandma(phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
   elseif
-    speak_to_grandma(pharse) == uppercase
+    pharse == uppercase
     puts "NO, NOT SINCE 1938!"
 
   else
