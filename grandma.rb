@@ -2,13 +2,13 @@
 def speak_to_grandma(phrase)
   phrase "HELLO"
   if
-    phrase.lowercase
+    phrase == lowercase
     puts "HUH? SPEAK UP, SONNY!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
   elseif
-    pharse.uppercase
+    pharse == uppercase
     puts "NO, NOT SINCE 1938!"
 
   elseif
