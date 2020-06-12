@@ -2,12 +2,13 @@
 def speak_to_grandma(phrase)
   if speak_to_grandma(phrase) == lowercase
     puts "HUH? SPEAK UP, SONNY!"
-  elsif pharse == uppercase
+  elsif speak_to_grandma(pharse) == uppercase
     puts "NO, NOT SINCE 1938!"
-  else phrase = "I LOVE YOU GRANDMA!"
+  else speak_to_grandma(phrase) = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
+
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
