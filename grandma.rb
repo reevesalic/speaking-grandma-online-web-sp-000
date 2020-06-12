@@ -7,11 +7,11 @@ def speak_to_grandma(phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
   elseif
-    pharse == uppercase
+    speak_to_grandma(pharse) == uppercase
     puts "NO, NOT SINCE 1938!"
 
   elseif
-    phrase = "I LOVE YOU GRANDMA!"
+    speak_to_grandma(phrase) = "I LOVE YOU GRANDMA!"
       puts "I LOVE YOU TOO PUMPKIN!"
 end
 end
