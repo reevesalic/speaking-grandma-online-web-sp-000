@@ -1,6 +1,5 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-    phrase = "HELLO"
   if
     phrase == lowercase
     puts "HUH? SPEAK UP, SONNY!"
